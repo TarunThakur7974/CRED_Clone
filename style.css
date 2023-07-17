@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+.black-container{
+    background-color: #0f0f0f;
+    color: white;
+    width: 100vw;
+}
+navbar{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 0 0 0;
+}
+navbar>span{
+    display: flex;
+    font-size: 20px;
+    gap: 20%;
+    width: 30%;
+}
+navbar img{
+    width: 50px;
+}
+
+/* section first  */
+
+.sec-first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 600px;
+    text-align: center;
+}
+.sec-first h1{
+    font-size: 100px;
+}
+.sec-first p{
+    font-size: 30px;
+}
+.sec-first button{
+    font-size: 26px;
+    background-color: white;
+    color: black;
+    padding: 16px 60px;
+    font-weight: 600;
+    border-radius:30px ;
+    border: white;
+    cursor: pointer;
+}
+
+.sec-two img{
+    width: 100%;
+}
+
+
+/* section three // */
+
+.sec-three{
+    background: url(./assets/sec-three.webp);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.text-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: auto;
+    width: 70%;
+}
+.text-content h1{
+    font-size: 100px;
+    font-weight: 600;
+}
+.text-content h2{
+    font-size: 35px;
+}
+.text-content p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.text-content button{
+    font-size: 26px;
+    background-color: white;
+    color: black;
+    padding: 16px 60px;
+    font-weight: 800;
+    border-radius:30px ;
+    border: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* section four  */
+
+.sec-four{
+    color: black;
+    background-color: white;
+}
+.sec-four-div{
+    width: 70%;
+    margin: auto;
+    line-height: 120px;
+}
+.sec-four-div img{
+    width: 100%;
+}
+
+/* section five  */
+
+.sec-five{
+    background: url(./assets/sec-five.webp);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.text-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: auto;
+    width: 70%;
+}
+.text-content h1{
+    font-size: 100px;
+    font-weight: 600;
+}
+.text-content h2{
+    font-size: 35px;
+}
+.text-content p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.text-content button{
+    font-size: 26px;
+    background-color: white;
+    color: black;
+    padding: 16px 60px;
+    font-weight: 800;
+    border-radius:30px ;
+    border: white;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+/* section six  */
+
+.sec-six{
+    display: flex;
+    width: 70%;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 0;
+}
+.six-right-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.six-right-div img{
+    width: 50%;
+    background-position: center center;
+    border:2px solid white;
+    border-radius: 30px;
+    box-shadow: inset;
+}
+.six-left-div h1{
+    font-size: 100px;
+    font-weight: 800;
+} 
+.six-left-div p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 6%;
+} 
+
+
+/* setion seven  */
+
+.sec-seven{
+    background: url(./assets/sec-seven.webp);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.text-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: auto;
+    width: 70%;
+}
+.text-content h1{
+    font-size: 100px;
+    font-weight: 600;
+}
+.text-content h2{
+    font-size: 35px;
+}
+.text-content p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.text-content button{
+    font-size: 26px;
+    background-color: white;
+    color: black;
+    padding: 16px 60px;
+    font-weight: 800;
+    border-radius:30px ;
+    border: white;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+/* section eight  */
+
+.sec-eight{
+    background-color:rgb(3 122 91);
+    display: flex;
+    min-height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.sec-eight h1{
+    width: 25%;
+    font-size: 55px;
+}
+.sec-eight span{
+    width: 35%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* section nine  */
+
+.sec-nine img{
+    width: 100%;
+}
+/* section ten  */
+.sec-ten{
+    background-color: rgb(39, 38, 38);
+    padding: 5%;
+}
+.ten-main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+    margin: auto;
+    padding: 5% 0 0  0;
+}
+.ten-main p{
+    font-size: 19px;
+    color: #979090;
+}
+
+/* section eleven  */
+
+.sec-eleven{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    min-height: 100vh;
+    line-height: 200%;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+#image1{
+    width: 75px;
+}
+#image2{
+    width: 70%;
+    /* height: 60px; */
+}
+.eleven-left{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.top-div{
+    display: flex;
+    flex-direction: column;
+    /* gap: 18px; */
+}
+.eleven-left span p{
+    font-size: 20px;
+    color: #625d5d;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.eleven-left p{
+    font-weight: 600;
+    color: #625d5d;
+    font-size: 20px;
+    margin-top: 18%;
+}
+
+.eleven-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.eleven-top{
+    display: flex;
+    gap: 42%;
+}
+.eleven-middle{
+    display: flex;
+    gap: 30%;
+}
+.eleven-top ul{
+    font-size: 20px;
+    color: #625d5d;
+    list-style: none;
+    font-weight: 600;
+}
+.eleven-middle ul{
+    font-size: 20px;
+    color: #625d5d;
+    list-style: none;
+    font-weight: 600;
+}
+#li-white{
+    color: white;
+}
+.eleven-right p{
+    font-size: 20px;
+    color: #625d5d;
+    font-weight: 600;
+}
+
+
